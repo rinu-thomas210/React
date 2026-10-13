@@ -1,0 +1,40 @@
+/* Main page */
+.page {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Intro text */
+.intro {
+  color: gray;
+  font-size: 16px;
+}
+
+/* Product cards container */
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* Individual product card */
+.product-card {
+  background-color: #f0f8ff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+}
+
+/* Product category */
+.category {
+  display: inline-block;
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
