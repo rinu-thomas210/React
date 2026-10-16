@@ -5,6 +5,61 @@
   text-align: center;
 }
 
+.app-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+.product-card .card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.feature-section {
+  padding: 20px 0;
+}
+
+.feature-section h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.form-box {
+  max-width: 450px;
+}
+
+@media (max-width: 992px) {
+  .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+  }
+}
+
 /* Intro text */
 .intro {
   color: gray;

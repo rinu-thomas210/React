@@ -52,7 +52,18 @@
 
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #212529;
 }
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 700;
+}
+
 
 #root {
   width: 1126px;
