@@ -1,0 +1,154 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "price": 450,
+      "category": "Self-Help",
+      "description": "A practical guide to building good habits, breaking bad ones, and making small changes that lead to remarkable results.",
+      "availability": true,
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg"
+    },
+    {
+      "id": "5",
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "price": 375,
+      "category": "Finance",
+      "description": "Explores how human behavior, emotions, and personal experiences influence financial decisions.",
+      "availability": false,
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780857197689-L.jpg"
+    },
+    {
+      "id": "7",
+      "title": "The Hobbit",
+      "author": "J. R. R. Tolkien",
+      "price": 425,
+      "category": "Fantasy",
+      "description": "Bilbo Baggins joins a group of dwarves on an adventure to reclaim their treasure from a dragon.",
+      "availability": true,
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg"
+    },
+    {
+      "id": "8",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "price": 350,
+      "category": "Classic",
+      "description": "A classic novel exploring justice, prejudice, compassion, and childhood through the eyes of Scout Finch.",
+      "availability": false,
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg"
+    },
+    {
+      "id": "9",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 299,
+      "category": "Fiction",
+      "description": "A young shepherd travels in search of treasure and discovers lessons about dreams and destiny.",
+      "availability": true,
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780062315007-L.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "price": 399,
+      "category": "Finance",
+      "description": "Explores financial literacy, investing, and different approaches to building wealth.",
+      "availability": true,
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9781612680194-L.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J. K. Rowling",
+      "price": 499,
+      "category": "Fantasy",
+      "description": "Harry Potter discovers that he is a wizard and begins his magical education at Hogwarts.",
+      "availability": true,
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780590353427-L.jpg"
+    },
+    {
+      "id": "12",
+      "title": "The 7 Habits of Highly Effective People",
+      "author": "Stephen R. Covey",
+      "price": 425,
+      "category": "Self-Help",
+      "description": "Presents principles for personal growth, effective communication, and productive relationships.",
+      "availability": false,
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9781982137274-L.jpg"
+    },
+    {
+      "id": "13",
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "price": 275,
+      "category": "Self-Help",
+      "description": "Discusses goal setting, persistence, and mindset in the pursuit of personal success.",
+      "availability": true,
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9781585424337-L.jpg"
+    },
+    {
+      "id": "14",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "price": 320,
+      "category": "Classic",
+      "description": "Elizabeth Bennet navigates love, family expectations, and social class in this classic novel.",
+      "availability": true,
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg"
+    },
+    {
+      "id": "15",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 299,
+      "category": "Classic",
+      "description": "A story of ambition, wealth, love, and the American Dream in the 1920s.",
+      "availability": false,
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg"
+    },
+    {
+      "id": "16",
+      "title": "The Lord of the Rings",
+      "author": "J. R. R. Tolkien",
+      "price": 599,
+      "category": "Fantasy",
+      "description": "A hobbit and his companions embark on a dangerous quest to destroy a powerful ring.",
+      "availability": true,
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780618640157-L.jpg"
+    },
+    {
+      "id": "17",
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "price": 375,
+      "category": "Productivity",
+      "description": "Explains how focused, distraction-free work can improve productivity and produce valuable results.",
+      "availability": true,
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9781455586691-L.jpg"
+    },
+    {
+      "id": "18",
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "price": 350,
+      "category": "Self-Help",
+      "description": "Offers an unconventional perspective on values, priorities, and dealing with life's challenges.",
+      "availability": false,
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780062457714-L.jpg"
+    },
+    {
+      "id": "19",
+      "title": "The Fault in Our Stars",
+      "author": "John Green",
+      "price": 325,
+      "category": "Romance",
+      "description": "Two teenagers form a deep connection while navigating love, illness, and life's uncertainties.",
+      "availability": true,
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780525478812-L.jpg"
+    }
+  ]
+}
