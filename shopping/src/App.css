@@ -1,0 +1,182 @@
+
+:root {
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  color: #20243a;
+  background: #f7f8fc;
+  font-synthesis: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 85px;
+}
+
+body {
+  margin: 0;
+  background: #f7f8fc;
+  color: #20243a;
+}
+
+.shop-navbar {
+  background: #ffffff;
+  padding: 15px 0;
+  box-shadow: 0 2px 15px rgba(25, 35, 70, 0.07);
+}
+
+.shop-navbar .navbar-brand {
+  color: #4f46e5;
+  font-size: 1.4rem;
+}
+
+.shop-navbar .nav-link {
+  font-weight: 500;
+  color: #34384e;
+}
+
+.hero-section {
+  background: linear-gradient(120deg, #4f46e5, #8178f5);
+  color: white;
+  padding: 75px 0;
+}
+
+.hero-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  opacity: 0.9;
+}
+
+.hero-section h1 {
+  font-size: clamp(2.3rem, 6vw, 4rem);
+  font-weight: 800;
+  margin: 15px 0;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  opacity: 0.95;
+  margin-bottom: 25px;
+}
+
+.hero-button {
+  color: #4f46e5;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 9px;
+}
+
+.section-heading h2,
+#cart h2 {
+  color: #20243a;
+}
+
+.category-select {
+  width: 200px;
+  max-width: 100%;
+  border-radius: 9px;
+  padding: 10px;
+}
+
+.product-card {
+  overflow: hidden;
+  border-radius: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(25, 35, 70, 0.12) !important;
+}
+
+.product-image {
+  height: 210px;
+  object-fit: cover;
+  background: #eceef7;
+}
+
+.category-badge {
+  align-self: flex-start;
+  border: 1px solid #e6e8f3;
+  padding: 7px 10px;
+  border-radius: 20px;
+}
+
+.product-price {
+  color: #4f46e5;
+  font-weight: 800;
+}
+
+.add-button {
+  background: #4f46e5;
+  border-color: #4f46e5;
+  border-radius: 9px;
+  padding: 10px;
+}
+
+.add-button:hover {
+  background: #3730a3;
+  border-color: #3730a3;
+}
+
+.cart-card,
+.summary-card {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.cart-item + .cart-item {
+  border-top: 1px solid #eceef4;
+}
+
+.cart-image {
+  width: 100%;
+  max-width: 100px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.quantity-value {
+  min-width: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.empty-cart {
+  color: #34384e;
+}
+
+footer {
+  background: #ffffff;
+  color: #73778b;
+  border-top: 1px solid #eceef4;
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    padding: 55px 0;
+  }
+
+  .product-image {
+    height: 190px;
+  }
+
+  .cart-item {
+    font-size: 0.9rem;
+  }
+
+  .cart-item .btn {
+    padding: 5px 8px;
+  }
+
+  .cart-item .btn svg {
+    font-size: 0.75rem;
+  }
+
+  .cart-image {
+    max-width: 75px;
+  }
+
+  .quantity-value {
+    min-width: 14px;
+  }
+}
